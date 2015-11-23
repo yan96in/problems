@@ -1,2 +1,2 @@
-android
-ԭ����ƹ���Axure��Sketch
+问题记录：
+·git中文乱码？
