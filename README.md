@@ -7,6 +7,7 @@
 ##UI
 [按两次back键退出的2种方法](https://github.com/yan96in/problems/blob/master/back.java)<br>
 [editText限制输入的4种方法](https://github.com/yan96in/problems/blob/master/edittext.java)<br>
+[输入框一键删除内容](https://github.com/yan96in/problems/blob/master/edittextWithDelete.java)<br>
 ##数据存储
 ##NDK
 ##
