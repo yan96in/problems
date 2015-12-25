@@ -1,7 +1,8 @@
-按两次回退键退出程序。
+/*按两次回退键退出程序。
 通过重写onKeyDown方法处理
-解决方案1
+*/
 
+//解决方案1
 private Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -28,7 +29,7 @@ private Handler handler = new Handler() {
         return false;
     }
     
-    解决方案2
+    //解决方案2
   private long mExitTime;
   @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
