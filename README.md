@@ -10,6 +10,7 @@
 [输入框一键删除内容](https://github.com/yan96in/problems/blob/master/edittextWithDelete.java)<br>
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 [倒计时功能](https://github.com/yan96in/problems/blob/master/countdown-timer.md)<br>
+[加载图片时导致的内存溢出问题]()<br>
 ##数据存储
 ##NDK
 ##
