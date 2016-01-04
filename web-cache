@@ -1,3 +1,4 @@
+*Android WebView缓存机制
 当我们加载Html时候，会在我们data/应用package下生成database与cache两个文件夹:
 我们请求的Url记录是保存在webviewCache.db里，而url的内容是保存在webviewCache文件夹下.
 
