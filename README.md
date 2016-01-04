@@ -14,6 +14,7 @@
 [截屏](https://github.com/yan96in/problems/blob/master/screen-shot.md)<br>
 [根据有无虚拟（back home）按键时正确显示界面](https://github.com/yan96in/problems/blob/master/menu-key)<br>
 ##数据存储
+[web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
 ##NDK
 ##
 ##
