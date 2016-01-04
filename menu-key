@@ -1,0 +1,10 @@
+根据有无虚拟（back home）按键时正确显示界面。
+ if( ViewConfiguration.get(this).hasPermanentMenuKey()){
+        }else{
+            window = getWindow();
+
+            WindowManager.LayoutParams params = window.getAttributes();
+            params.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_FULLSCREEN |
+                    View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+            window.setAttributes(params);
+        }
