@@ -10,7 +10,8 @@
 [输入框一键删除内容](https://github.com/yan96in/problems/blob/master/edittextWithDelete.java)<br>
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 [倒计时功能](https://github.com/yan96in/problems/blob/master/countdown-timer.md)<br>
-[加载图片时导致的内存溢出问题]()<br>
+[加载图片时导致的内存溢出问题](https://github.com/yan96in/problems/blob/master/load-image-oom.md)<br>
+[截屏](https://github.com/yan96in/problems/blob/master/screen-shot.md)<br>
 [根据有无虚拟（back home）按键时正确显示界面](https://github.com/yan96in/problems/blob/master/menu-key)<br>
 ##数据存储
 ##NDK
