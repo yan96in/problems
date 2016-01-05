@@ -1,5 +1,5 @@
 #全屏模式下半透明显示系统状态栏
-问题：当 Activity 以全屏模式运行时，如何允许 Android 系统状态栏在顶层出现，而不迫使 Activity 重新布局让出空间？
+问题：当 Activity 以全屏模式运行时，如何允许 Android 系统状态栏在顶层出现，而不迫使 Activity 重新布局让出空间？<br>
 回答:
 ```
   private void hideStatusBar() {
