@@ -14,6 +14,7 @@
 [截屏](https://github.com/yan96in/problems/blob/master/screen-shot.md)<br>
 [根据有无虚拟（back home）按键时正确显示界面](https://github.com/yan96in/problems/blob/master/menu-key)<br>
 [全屏模式下半透明显示系统状态栏](https://github.com/yan96in/problems/blob/master/fullscreen-with-statusbar.md)<br>
+[ListView中getChildAt(index)的使用注意事项](https://github.com/yan96in/problems/blob/master/getChildAt.md)<br>
 ##数据存储
 [web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
 ##NDK
