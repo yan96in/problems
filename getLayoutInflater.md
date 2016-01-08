@@ -1,4 +1,4 @@
-获取LayoutInflater的三种写法
+获取LayoutInflater的三种方法
 ```
 // 1.最原始的写法
 LayoutInflater inflater = (LayoutInflater)this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
