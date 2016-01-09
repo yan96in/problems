@@ -21,8 +21,9 @@
 ##NDK
 ##
 ##
-##
-
+##gradle
+[plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)
+[6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)
 #Java
 #git
 1.中文乱码
