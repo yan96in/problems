@@ -25,6 +25,15 @@
 [plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)
 #Java
+java是支持中文名的,比如
+```
+class 我{ 
+  String 我="me";
+  public String 返回我(){
+    return 我;
+  }
+}
+```
 #git
 1.中文乱码
 #IOS/Object-c/Swift
