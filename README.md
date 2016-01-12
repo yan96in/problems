@@ -2,7 +2,8 @@
 开发中遇到问题的解决方法总结
 #Android
 ##开发框架
-###xUtils
+
+快速开发xUtils|注解ButterKnife|图片处理Glide/Fresco|网络okhttp/volley|数据库greenDAO|Sqlite?|json数据处理转换Gosn+GsonFormat
 
 ##UI
 [按两次back键退出的2种方法](https://github.com/yan96in/problems/blob/master/back.java)<br>
