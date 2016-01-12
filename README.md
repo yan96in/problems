@@ -8,7 +8,6 @@
 [按两次back键退出的2种方法](https://github.com/yan96in/problems/blob/master/back.java)<br>
 [editText限制输入的4种方法](https://github.com/yan96in/problems/blob/master/edittext.java)<br>
 [输入框一键删除内容](https://github.com/yan96in/problems/blob/master/edittextWithDelete.java)<br>
-[Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 [倒计时功能](https://github.com/yan96in/problems/blob/master/countdown-timer.md)<br>
 [加载图片时导致的内存溢出问题](https://github.com/yan96in/problems/blob/master/load-image-oom.md)<br>
 [截屏](https://github.com/yan96in/problems/blob/master/screen-shot.md)<br>
@@ -16,6 +15,8 @@
 [全屏模式下半透明显示系统状态栏](https://github.com/yan96in/problems/blob/master/fullscreen-with-statusbar.md)<br>
 [ListView中getChildAt(index)的使用注意事项](https://github.com/yan96in/problems/blob/master/getChildAt.md)<br>
 [获取LayoutInflater的三种方法](https://github.com/yan96in/problems/blob/master/getLayoutInflater.md)
+##四大组件及消息传递机制
+[Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 ##数据存储
 [web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
 ##NDK
