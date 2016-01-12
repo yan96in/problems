@@ -15,6 +15,7 @@
 [全屏模式下半透明显示系统状态栏](https://github.com/yan96in/problems/blob/master/fullscreen-with-statusbar.md)<br>
 [ListView中getChildAt(index)的使用注意事项](https://github.com/yan96in/problems/blob/master/getChildAt.md)<br>
 [获取LayoutInflater的三种方法](https://github.com/yan96in/problems/blob/master/getLayoutInflater.md)
+[改变背景染色](https://github.com/yan96in/problems/wiki/%E6%94%B9%E5%8F%98(%E8%AE%BE%E7%BD%AE)%E6%8E%A7%E4%BB%B6%E7%9A%84%E8%83%8C%E6%99%AFTint%E8%89%B2)<br>
 ##四大组件及消息传递机制
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 ##数据存储
@@ -26,7 +27,7 @@
 [plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)
 #Java
-[类型转换](https://github.com/yan96in/problems/blob/master/type-conversion.md)
+[类型转换](https://github.com/yan96in/problems/blob/master/type-conversion.md)<br>
 java是支持中文名的,比如
 ```
 class 我{ 
