@@ -17,6 +17,7 @@
 [获取LayoutInflater的三种方法](https://github.com/yan96in/problems/blob/master/getLayoutInflater.md)
 [改变背景染色](https://github.com/yan96in/problems/wiki/%E6%94%B9%E5%8F%98(%E8%AE%BE%E7%BD%AE)%E6%8E%A7%E4%BB%B6%E7%9A%84%E8%83%8C%E6%99%AFTint%E8%89%B2)<br>
 [打开本地图片选择器并更换头像](https://github.com/yan96in/problems/blob/master/change-avatar.md)<br>
+[ExpandableListView在右边显示箭头的方法](https://github.com/yan96in/problems/blob/master/expandable-right-indicator)<br>
 ##四大组件及消息传递机制
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 ##数据存储
