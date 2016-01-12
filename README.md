@@ -26,6 +26,7 @@
 [plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)
 #Java
+[类型转换](https://github.com/yan96in/problems/blob/master/type-conversion.md)
 java是支持中文名的,比如
 ```
 class 我{ 
