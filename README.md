@@ -6,7 +6,7 @@
 快速开发xUtils|注解ButterKnife|图片处理Glide/Fresco|网络okhttp/volley|数据库greenDAO|Sqlite?|json数据处理转换Gosn+GsonFormat
 
 ##UI
-[1获取屏幕宽高/2设置]()<br>
+[1获取屏幕宽高/2设置popwin的位置](https://github.com/yan96in/problems/blob/master/getwindow-setpopwin.md)<br>
 [按两次back键退出的2种方法](https://github.com/yan96in/problems/blob/master/back.java)<br>
 [editText限制输入的4种方法](https://github.com/yan96in/problems/blob/master/edittext.java)<br>
 [输入框一键删除内容](https://github.com/yan96in/problems/blob/master/edittextWithDelete.java)<br>
