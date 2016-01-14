@@ -32,6 +32,7 @@
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)
 #Java
 [类型转换](https://github.com/yan96in/problems/blob/master/type-conversion.md)<br>
+[为什么匿名内部类和局部内部类只能访问final变量](https://github.com/yan96in/problems/blob/master/inner-class-and-final.md)<br>
 java是支持中文名的,比如
 ```
 class 我{ 
