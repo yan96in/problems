@@ -23,7 +23,8 @@
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
 ##数据存储
 [web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
-##NDK
+##传感器、手机硬件
+[调用系统相机应用](https://github.com/yan96in/problems/blob/master/camera.md)<br>
 ##
 ##
 ##gradle
