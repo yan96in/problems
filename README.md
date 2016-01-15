@@ -3,7 +3,7 @@
 #Android
 ##开发框架
 
-快速开发xUtils|注解ButterKnife|图片处理Glide/Fresco|网络okhttp/volley|数据库greenDAO|Sqlite?|json数据处理转换Gosn+GsonFormat
+快速开发xUtils|注解ButterKnife|图片处理Glide/Fresco|网络okhttp/volley/retrofit|数据库greenDAO|OrmLite|json数据处理转换fastjson+GsonFormat
 
 ##UI
 [1获取屏幕宽高/2设置popwin的位置](https://github.com/yan96in/problems/blob/master/getwindow-setpopwin.md)<br>
