@@ -29,7 +29,7 @@
 ##
 ##
 ##gradle编译
-[error: dexDebug]一般删除多余不用的jar包就可以了<br>
+[error: dexDebug]一般删除重复或者多余不用的jar包就可以了<br>
 [plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)<br>
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)<br>
 #Java
