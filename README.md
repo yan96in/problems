@@ -22,6 +22,7 @@
 [ExpandableListView在右边显示箭头的方法](https://github.com/yan96in/problems/blob/master/expandable-right-indicator)<br>
 ##四大组件及消息传递机制
 [Activity之间传值](https://github.com/yan96in/problems/blob/master/intent-value-transmit.md)<br>
+[hanler在fragment中的使用](https://github.com/yan96in/problems/blob/master/handler.md)<br>
 ##数据存储
 [web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
 ##传感器、手机硬件
