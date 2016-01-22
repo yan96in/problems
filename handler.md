@@ -1,4 +1,5 @@
 Handler在Fragment中的用法
+*1
 ```
 Message message;
 View view;
@@ -40,3 +41,7 @@ static class MyHandler extends Handler{
         }
     }
 ```
+*2还有一种是用Thread（ThreadPoolExecutor）+Runnable+Handler 还没成功
+*3重写Fragment的onDestroy（）方法，
+if（handler!=null){handler.onDestroy();}
+[一个处理库](https://github.com/badoo/android-weak-handler)
