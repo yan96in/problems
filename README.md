@@ -34,6 +34,7 @@
 [error: dexDebug]一般删除重复或者多余不用的jar包就可以了<br>
 [plugin not found](https://github.com/yan96in/problems/blob/master/plugin-not-found.md)<br>
 [6.0 不能使用httpclient的解决方法](https://github.com/yan96in/problems/blob/master/use-httpclient-under-6.md)<br>
+添加module失败时不想再持有module的处理方法：settings.gradle去掉对应module<br>
 #Java
 [类型转换](https://github.com/yan96in/problems/blob/master/type-conversion.md)<br>
 [为什么匿名内部类和局部内部类只能访问final变量](https://github.com/yan96in/problems/blob/master/inner-class-and-final.md)<br>
