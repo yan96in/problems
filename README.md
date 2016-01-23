@@ -50,6 +50,7 @@ class 我{
 [String字符分割，中文字符排序](https://github.com/yan96in/problems/blob/master/china-unicode.md)<br>
 [Collections排序](https://github.com/yan96in/problems/blob/master/collections-sort.md)<br>
 [split用法小结](https://github.com/yan96in/problems/blob/master/split.md)<br>
+[enum的用法](https://github.com/yan96in/problems/blob/master/enum.md)<br>
 #git
 1.中文乱码
 #IOS/Object-c/Swift
