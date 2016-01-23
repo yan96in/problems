@@ -8,6 +8,9 @@ CityFromJson ctj=JSON.parseObject(json, CityFromJson.class);
                 String[] strings=ctj.getCitylist().split(",");
                    //进行排序
                 Arrays.sort(strings,new SortedString());
+                //倒序
+                // Arrays.sort(strings,Collections.reverseOrder(new SortedString()));
+                
 }      
 
 static class SortedString implements Comparator<String>{
