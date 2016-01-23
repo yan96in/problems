@@ -48,6 +48,7 @@ class 我{
 }
 ```
 [String字符分割，中文字符排序](https://github.com/yan96in/problems/blob/master/china-unicode.md)<br>
+[Collections排序](https://github.com/yan96in/problems/blob/master/collections-sort.md)<br>
 #git
 1.中文乱码
 #IOS/Object-c/Swift
