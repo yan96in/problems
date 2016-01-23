@@ -26,3 +26,5 @@ static class SortedString implements Comparator<String>{
         }
     }
 ```
+附 一篇博客 备用：
+[Android 汉子首字母排序](http://blog.csdn.net/a1018875550/article/details/47017981)<br>
