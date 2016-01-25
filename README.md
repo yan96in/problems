@@ -28,7 +28,8 @@
 [web缓存机制](https://github.com/yan96in/problems/blob/master/web-cache)<br>
 ##传感器、手机硬件
 [调用系统相机应用](https://github.com/yan96in/problems/blob/master/camera.md)<br>
-##
+##调试
+[流量问题](https://github.com/yan96in/problems/blob/master/steam-relative.md)<br>
 ##
 ##gradle编译
 [项目迁移到as上时的乱码问题] 未解决
