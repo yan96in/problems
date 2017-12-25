@@ -1,0 +1,2 @@
+copy specified records from table to another tables already exists|复制一个表中的数据到另一个已创建的表中:
+insert into table 1 (column1,column2,column3,..) select col1,col2,col3,.. from table2 
