@@ -1,1 +1,3 @@
-##### [mybatis动态sql中trim, where, set的用法](http://www.mybatis.org/mybatis-3/zh/dynamic-sql.html)
+- [mybatis动态sql中trim, where, set的用法](http://www.mybatis.org/mybatis-3/zh/dynamic-sql.html)
+- mybatis是否可以直接传sql语句执行?
+- mybatis批量操作
