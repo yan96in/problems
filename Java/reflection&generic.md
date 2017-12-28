@@ -1,1 +1,1 @@
-![泛型](/genetic.jpg)
+![泛型](genetic.jpg)
