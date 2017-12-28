@@ -1,0 +1,1 @@
+- springMVC传相同属性
