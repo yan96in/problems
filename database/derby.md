@@ -1,0 +1,1 @@
+- idea创建数据库实例: jdbc:derby:localhost;create=true
