@@ -23,8 +23,8 @@ PL/SQL_BLOCK | CALL procedure_name;
 
 5.         触发器中不能使用LONG, LONG RAW 类型；
 6.         触发器内可以参照LOB 类型列的列值，但不能通过 :NEW 修改LOB列中的数据；
-- [ Oralce导入数据时提示ORA-12899错误value too large for column](http://blog.csdn.net/lyb3290/article/details/53758884)
-  `从生产导出数据到测试,出现如下错误
+- [ Oralce导入数据时提示ORA-12899错误value too large for column](http://blog.csdn.net/lyb3290/article/details/53758884) 
+      `从生产导出数据到测试,出现如下错误
 ORA-02374: conversion error loading table "SWTONLINE"."TBL_TRANS_LOG_HISTORY_B"
  ORA-12899: value too large for column MER_ADDR_NAME (actual: 54, maximum: 40)
 初步估计为字符集差异导致.中文在UTF-8里占3个字节，ZHS16GBK里占2个字节
