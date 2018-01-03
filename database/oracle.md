@@ -1,5 +1,6 @@
 - [sql递归查询](http://www.cnblogs.com/linjiqin/archive/2013/06/24/3152674.html)<br>
-select * from table start with id='xxxxxxx' connect by pid=prior id
+select * from table start with {conditon} connect by pid=prior id
+condition是一个条件,如id='xxx',不是值'xxx'
 - sql查询某节点的同级节点<br>
 ` with tmp as(
       select a.*, level leaf        
