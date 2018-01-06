@@ -1,1 +1,2 @@
-int型数据不能与null进行比较
+- int型数据不能与null进行比较
+- JMX:Java Management Extensions，即Java管理扩展
