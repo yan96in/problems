@@ -1,3 +1,8 @@
+- 连接oracle数据库出现oracle ORA-12526: TNS: 监听程序: 所有适用例程都处于受限模式
+
+      解决办法：使用系统管理员身份运行以下一段代码
+      ALTER SYSTEM DISABLE RESTRICTED SESSION;
+
 - [sql递归查询](http://www.cnblogs.com/linjiqin/archive/2013/06/24/3152674.html)<br>
 
       select * from table start with {conditon} connect by pid=prior id
