@@ -10,7 +10,7 @@
       在语句中使用to_number函数时，要保证值一定是数字格式，或者写好异常处理。
       当我们碰到这个错误提示时，就从所有用到的数字类型的字段开始检查，逐一排查，从而解决问题。
 
-- [一次插入多条数据](https://www.cnblogs.com/mq0036/p/6370224.html?utm_source=itdadao&utm_medium=referral)
+- [一次插入多条数据](https://www.cnblogs.com/mq0036/p/6370224.html?utm_source=itdadao&utm_medium=referral):[stackoverflow](https://stackoverflow.com/questions/39576/best-way-to-do-multi-row-insert-in-oracle)
       
 - 连接oracle数据库出现oracle ORA-12526: TNS: 监听程序: 所有适用例程都处于受限模式
 
