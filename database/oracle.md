@@ -34,7 +34,18 @@
       [REFERENCING {OLD [AS] old | NEW [AS] new| PARENT as parent}]
       [FOR EACH ROW ]
       [WHEN condition]
-      PL/SQL_BLOCK | CALL procedure_name;
+      PL/SQL_BLOCK | CALL procedure_name;
+- 编写触发器时，需要注意以下几点：
+
+      1.触发器不接受参数。
+      2.一个表上最多可有12个触发器，但同一时间、同一事件、同一类型的触发器只能有一个。并各触发器之间不能有矛盾。
+      3.在一个表上的触发器越多，对在该表上的DML操作的性能影响就越大。
+      4.触发器最大为32KB。若确实需要，可以先建立过程，然后在触发器中用CALL语句进行调用。
+      5.在触发器的执行部分只能用DML语句（SELECT、INSERT、UPDATE、DELETE），不能使用DDL语句（CREATE、ALTER、DROP）。
+      6.触发器中不能包含事务控制语句(COMMIT，ROLLBACK，SAVEPOINT)。因为触发器是触发语句的一部分，触发语句被提交、回退时，触发器也被提交、回退了。
+      7.在触发器主体中调用的任何过程、函数，都不能使用事务控制语句。
+      8. 在触发器主体中不能申明任何Long和blob变量。新值new和旧值old也不能是表中的任何long和blob列。
+      9.不同类型的触发器(如DML触发器、INSTEAD OF触发器、系统触发器)的语法格式和作用有较大区别。
 - DML触发器的限制:
 
       1.CREATE TRIGGER语句文本的字符长度不能超过32KB；
