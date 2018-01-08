@@ -35,6 +35,7 @@
       [FOR EACH ROW ]
       [WHEN condition]
       PL/SQL_BLOCK | CALL procedure_name;
+      //REFERENCING 子句说明相关名称，在行触发器的PL/SQL块和WHEN 子句中可以使用相关名称参照当前的新、旧列值，默认的相关名称分别为OLD和NEW。触发器的PL/SQL块中应用相关名称时，必须在它们之前加冒号(:)，但在WHEN子句中则不能加冒号。
 - 编写触发器时，需要注意以下几点：
 
       1.触发器不接受参数。
