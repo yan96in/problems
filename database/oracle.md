@@ -1,4 +1,5 @@
-
+- [一次插入多条数据](https://www.cnblogs.com/mq0036/p/6370224.html?utm_source=itdadao&utm_medium=referral)
+      
 - 连接oracle数据库出现oracle ORA-12526: TNS: 监听程序: 所有适用例程都处于受限模式
 
       解决办法：使用系统管理员身份运行以下一段代码
