@@ -21,6 +21,7 @@
 
       select * from table start with {conditon} connect by pid=prior id
       condition是一个条件,如id='xxx',不是值'xxx'
+      避免递归查询,因为每次connect by查询都对输入数据集进行全扫描 
 - sql查询某节点的同级节点<br>
 
       with tmp as(
