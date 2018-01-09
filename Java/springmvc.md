@@ -24,9 +24,9 @@
        这样在toController这个方法中就可以通过获得参数的方式获得这个参数，再传递到页面。过去的url还是和方式一一样的。
 
        * 方式三：带参数不拼接url页面也能拿到值（重点是这个）
-       一般我估计重定向到都想用这种方式：
-
-           @RequestMapping("/save")
+       一般我估计重定向到都想用这种方式：
+`
+           @RequestMapping("/save")
            public String save(@ModelAttribute("form") Bean form,RedirectAttributes attr) throws Exception {
                String code =  service.save(form);
                if(code.equals("000")){
@@ -44,9 +44,9 @@
            @RequestMapping("/index")
            public String save(@ModelAttribute("form") Bean form,RedirectAttributes attr) throws Exception {
                return "redirect:/main/list";
-           }
-
-       页面取值不用我说了吧，直接用el表达式就能获得到，这里的原理是放到session中，session在跳到页面后马上移除对象。所以你刷新一下后这个值就会丢掉。
+           }
+`
+         页面取值不用我说了吧，直接用el表达式就能获得到，这里的原理是放到session中，session在跳到页面后马上移除对象。所以你刷新一下后这个值就会丢掉。
 
     * 总结
 
