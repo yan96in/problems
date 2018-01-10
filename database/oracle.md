@@ -1,3 +1,6 @@
+- ORA-30929: 这里不允许使用 ORDER SIBLINGS BY 子句
+
+		ORDER SIBLINGS BY只用于connect by返回的数据,不适用于普通的排序
 - 出现错误"ORA-01722: 无效数字"的原因
 
       1.使用+号拼接字符串(应该是||)
