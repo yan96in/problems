@@ -1,3 +1,4 @@
+- Mybatis mapper文件中的sql结尾不要写";",否则会报错 (oracles数据库:"ORA-00911: 无效字符")
 - IncompleteElementException: Could not find result map ...
 
         出现这个错误,大概率是应该写resultType的,你写成了resultMap,orz
