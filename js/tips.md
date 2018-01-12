@@ -3,4 +3,9 @@
 - [js链式调用](http://blog.csdn.net/CherishLyf/article/details/50517425)
 - const定义的变量可以重新赋值,但不可重新定义
 
-        const ctx;var ctx;// error!
+      const ctx;var ctx;// error!
+- forEach用法:
+ 
+      arr.forEach(function(value,index,array){
+        //value=array[index]
+      })
