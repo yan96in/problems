@@ -41,7 +41,7 @@
 - 视图中包含集合操作,distinct等语句时不能进行数据更新操作
 
       可以在视图上加个字段,表明数据是从那个基础表里取出来的,然后根据这个去直接操作基础表达到想要的功能.
-- 触发器语法:(触发器不能接受参数)
+- [触发器语法](http://blog.csdn.net/indexman/article/details/8023740/):(触发器不能接受参数)
 
       CREATE [OR REPLACE] TRIGGER trigger_name
       {BEFORE | AFTER }
