@@ -43,3 +43,4 @@
 
       asyncCall();
 ```
+- [「大概也许是」目前最好的 JavaScript 异步方案 async/await](https://www.v2ex.com/t/238191) //js的异步是蛮弱的
