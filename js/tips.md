@@ -14,7 +14,9 @@
 - [JS中的call()和apply()方法](http://uule.iteye.com/blog/1158829)
 - [使用apply实现js方法的链式调用](https://www.cnblogs.com/youxin/p/3410185.html)
 - [通过Promise实现异步调用](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-  下面是我自己的一个实验：<br>
+  下面是我自己的一个实验：
+  
+  
   
   
       var a;
