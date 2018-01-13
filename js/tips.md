@@ -16,6 +16,7 @@
 - [通过Promise实现异步调用](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   下面是我自己的一个实验：<br>
   
+  
       var a;
       function delay(time){
           new Promise(resolve=>{
@@ -31,6 +32,7 @@
               },time)
           })
       }
+      
       async function asyncCall() {
           setTimeout(function(){
               a=100;
