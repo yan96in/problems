@@ -9,3 +9,4 @@
       arr.forEach(function(value,index,array){
         //value=array[index]
       })
+- h5 dom增加了3个选择器方法querySelectorAll()、querySelector()和matchesSelector()，极大的改善了性能。（也增加了一个不用jquery的重要理由）
