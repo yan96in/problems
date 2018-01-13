@@ -15,11 +15,8 @@
 - [使用apply实现js方法的链式调用](https://www.cnblogs.com/youxin/p/3410185.html)
 - [通过Promise实现异步调用](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   下面是我自己的一个实验：
-  
-  
-  
-  
-      var a;
+```
+      var a;
       function delay(time){
           new Promise(resolve=>{
               setTimeout(()=>{
@@ -34,7 +31,7 @@
               },time)
           })
       }
-      
+
       async function asyncCall() {
           setTimeout(function(){
               a=100;
@@ -43,3 +40,4 @@
       }
 
       asyncCall();
+```
