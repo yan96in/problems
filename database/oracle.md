@@ -1,61 +1,71 @@
 - 查询某个表上的触发器及某个触发器的详细信息
 	* .查all_triggers表得到trigger_name
 ```sql
-		select trigger_name from all_triggers where table_name='XXX';  
+	select trigger_name from all_triggers where table_name='XXX';  
 ```		
 	* 根据trigger_name查询出触发器详细信息
- 
-		select text from all_source where type='TRIGGER' AND name='TR_XXX';
+```sql
+	select text from all_source where type='TRIGGER' AND name='TR_XXX';
+```sql
 - 错误的触发器一定要删掉!
 - 查询表结构
 	- 查询表名称
-		
-		select table_name from user_tables; //当前用户的表      
-		select table_name from all_tables; //所有用户的表  
-		select table_name from dba_tables; //包括系统表
-		select table_name from dba_tables where owner='用户名'
-		
-		user_tables：
-		table_name,tablespace_name,last_analyzed等
-		
-		dba_tables：
-		ower,table_name,tablespace_name,last_analyzed等
-		
-		all_tables：
-		ower,table_name,tablespace_name,last_analyzed等
-		
-		all_objects：
-		ower,object_name,subobject_name,object_id,created,last_ddl_time,timestamp,status等 
+```sql		
+	select table_name from user_tables; //当前用户的表      
+	select table_name from all_tables; //所有用户的表  
+	select table_name from dba_tables; //包括系统表
+	select table_name from dba_tables where owner='用户名'
+```
+```
+	user_tables：
+	table_name,tablespace_name,last_analyzed等
+
+	dba_tables：
+	ower,table_name,tablespace_name,last_analyzed等
+
+	all_tables：
+	ower,table_name,tablespace_name,last_analyzed等
+
+	all_objects：
+	ower,object_name,subobject_name,object_id,created,last_ddl_time,timestamp,status等 
+```
 	- 查询表字段
-	
-		select * from user_tab_columns where Table_Name='用户表';
-		select * from all_tab_columns where Table_Name='用户表';
-		select * from dba_tab_columns where Table_Name='用户表';
-		
-		user_tab_columns：
-		table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等
-		
-		all_tab_columns ：
-		ower,table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等
-		
-		dba_tab_columns：
-		ower,table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等 
+```sql	
+	select * from user_tab_columns where Table_Name='用户表';
+	select * from all_tab_columns where Table_Name='用户表';
+	select * from dba_tab_columns where Table_Name='用户表';
+```
+```
+	user_tab_columns：
+	table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等
+
+	all_tab_columns ：
+	ower,table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等
+
+	dba_tab_columns：
+	ower,table_name,column_name,data_type,data_length,data_precision,data_scale,nullable,column_id等 
+```
 	- 获取表注释
-	
-		select * from user_tab_comments
-		
-		user_tab_comments：table_name,table_type,comments
-		相应的还有dba_tab_comments，all_tab_comments，这两个比user_tab_comments多了ower列。
+```sql	
+	select * from user_tab_comments
+```
+```
+	user_tab_comments：table_name,table_type,comments
+	相应的还有dba_tab_comments，all_tab_comments，这两个比user_tab_comments多了ower列。
+```
 	- 获取字段注释
-	
-		select * from user_col_comments
-		
-		user_col_comments：table_name,column_name,comments
+```sql	
+	select * from user_col_comments
+```
+```
+	user_col_comments：table_name,column_name,comments
+```
 - ORA-30929: 这里不允许使用 ORDER SIBLINGS BY 子句
-
-		ORDER SIBLINGS BY只用于connect by返回的数据,不适用于普通的排序
+```
+	ORDER SIBLINGS BY只用于connect by返回的数据,不适用于普通的排序
+```
 - 出现错误"ORA-01722: 无效数字"的原因
-
+```
       1.使用+号拼接字符串(应该是||)
       2.对于两个类型不匹配（一个数字类型，一个非数字类型，同下）的值进行赋值操作;
       3.两个类型不匹配的值进行比较操作（例如，“=”）;
@@ -65,21 +75,22 @@
       比如如果要比较的话，同时都用to_number强制转换（to_number(字段a) = to_number(字段b)），或者同时转换为字符串类型（字段a||'' = 字段b||'',都连接一个空字符串使之变成字符串类型）。
       在语句中使用to_number函数时，要保证值一定是数字格式，或者写好异常处理。
       当我们碰到这个错误提示时，就从所有用到的数字类型的字段开始检查，逐一排查，从而解决问题。
-
+```
 - [一次插入多条数据](https://www.cnblogs.com/mq0036/p/6370224.html?utm_source=itdadao&utm_medium=referral):[stackoverflow](https://stackoverflow.com/questions/39576/best-way-to-do-multi-row-insert-in-oracle)
       
 - 连接oracle数据库出现oracle ORA-12526: TNS: 监听程序: 所有适用例程都处于受限模式
-
+```
       解决办法：使用系统管理员身份运行以下一段代码
       ALTER SYSTEM DISABLE RESTRICTED SESSION;
-
+```
 - [sql递归查询](http://www.cnblogs.com/linjiqin/archive/2013/06/24/3152674.html)<br>
-
+```sql
       select * from table start with {conditon} connect by pid=prior id
       condition是一个条件,如id='xxx',不是值'xxx'
       避免递归查询,因为每次connect by查询都对输入数据集进行全扫描 
+```
 - sql查询某节点的同级节点<br>
-
+```sql
       with tmp as(
             select a.*, level leaf        
             from tb_menu a                
@@ -88,12 +99,13 @@
       select *                               
       from tmp                             
       where leaf = (select leaf from tmp where id = 50); 
-      
+```      
 - copy specified records from a table to another table already exists|复制一个表中的数据到另一个已创建的表中:
 - insert into table 1 (column1,column2,column3,..) select col1,col2,col3,.. from table2 
 - 视图中包含集合操作,distinct等语句时不能进行数据更新操作
-
+```
       可以在视图上加个字段,表明数据是从那个基础表里取出来的,然后根据这个去直接操作基础表达到想要的功能.
+```
 - [触发器语法](http://blog.csdn.net/indexman/article/details/8023740/):(触发器不能接受参数)
 
       CREATE [OR REPLACE] TRIGGER trigger_name
@@ -126,7 +138,7 @@
       5.触发器中不能使用LONG, LONG RAW 类型；
       6.触发器内可以参照LOB 类型列的列值，但不能通过 :NEW 修改LOB列中的数据；
 - [ Oralce导入数据时提示ORA-12899错误value too large for column](http://blog.csdn.net/lyb3290/article/details/53758884) 
-
+```
       从生产导出数据到测试,出现如下错误
       ORA-02374: conversion error loading table "SWTONLINE"."TBL_TRANS_LOG_HISTORY_B"
        ORA-12899: value too large for column MER_ADDR_NAME (actual: 54, maximum: 40)
@@ -259,3 +271,4 @@
       CHAR(10 BYTE)  - 无论NLS_LENGTH_SEMANTICS设置成什么，都使用字节（byte）。
 
       CHAR(10 CHAR) - 无论NLS_LENGTH_SEMANTICS设置成什么，都使用字符（char）。`
+```
