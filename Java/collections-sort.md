@@ -1,7 +1,7 @@
 ##用Collections.sort方法对list排序
 ###两种方法
 第一种是list中的对象实现Comparable接口，如下：
-```
+```Java
 /**
 * 根据order对User排序
 */
@@ -27,7 +27,7 @@ public class User implements Comparable<User>{
 }
 ```
 测试一下：
-```
+```Java
 public class Test{
 
     public static void main(String[] args) {
@@ -52,7 +52,7 @@ public class Test{
 a<br>
 b<br>
 第二种方法是根据Collections.sort重载方法来实现，例如：
-```
+```Java
 /**
 * 根据order对User排序
 */
@@ -74,7 +74,7 @@ public class User { //此处无需实现Comparable接口
 }
 ```
 主类中这样写即可：
-```
+```Java
 public class Test{
     public static void main(String[] args) {
         User user1 = new User();
