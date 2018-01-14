@@ -1,7 +1,8 @@
 - 查询某个表上的触发器及某个触发器的详细信息
 	* .查all_triggers表得到trigger_name
- 
+```sql
 		select trigger_name from all_triggers where table_name='XXX';  
+```		
 	* 根据trigger_name查询出触发器详细信息
  
 		select text from all_source where type='TRIGGER' AND name='TR_XXX';
