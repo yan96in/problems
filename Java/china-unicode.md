@@ -1,6 +1,6 @@
 从服务器返回json数组{"citylist":"\u9f99\u5ca9,\u4e09\u660e,...},先使用String.split(",")分割
 后保存在数组中，然后使用排序算法让其按拼音字母进行排序
-```
+```Java
 import java.util.Locale;
 
   void saveAndSort(String json){
