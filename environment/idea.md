@@ -1,1 +1,2 @@
+- 学着用add to favourites 来避免多次反复查找
 - [the output path is not specified for module](http://blog.csdn.net/lyzhou1107/article/details/46969959)
