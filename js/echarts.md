@@ -1,0 +1,1 @@
+- [k线图又叫蜡烛图](https://github.com/ecomfe/echarts/tree/master/src/chart/candlestick)
