@@ -1,5 +1,7 @@
 # how-to-solve-these-problems
 开发中遇到问题的解决方法总结
+##general
+-[代码中的特殊注解 -- TODO、FIXME、XXX的作用](http://blog.csdn.net/dietime1943/article/details/53466749)
 #Android
 ##开发框架
 
@@ -56,7 +58,4 @@ class 我{
 [Collections排序](https://github.com/yan96in/problems/blob/master/Java/collections-sort.md)<br>
 [split用法小结](https://github.com/yan96in/problems/blob/master/Java/split.md)<br>
 [enum的用法](https://github.com/yan96in/problems/blob/master/Java/enum.md)<br>
-#git
-1.中文乱码  未解决
-#IOS/Object-c/Swift
-#javascript/
+
