@@ -1,3 +1,4 @@
 - todo spring-test整合junit进行单元测试
 - [Spring 中的事件监听的实现](http://blog.csdn.net/blueboz/article/details/49949573)
 - 路径在RequestMapping注解中定义,而不是在Controller注解!
+- [spring3.2只能用java7编译](http://blog.csdn.net/blueheart20/article/details/50150529)
