@@ -59,6 +59,7 @@
 ```
 ```
 	user_col_comments：table_name,column_name,comments
+	相应的还有dba_col_comments，all_col_comments，这两个比user_col_comments多了ower列。
 ```
 - ORA-30929: 这里不允许使用 ORDER SIBLINGS BY 子句
 ```
