@@ -9,3 +9,5 @@
       6)IRkernel::installspec(user = FALSE) (user = FALSE表示任何用户都可以使用）
 - 查看R自带包search(),searchpaths()
 - 卸载包remove.packages("xxx")或者detach(package="xxx",unload=TRUE)
+- 查看函数案例example("xxx")
+- 查看函数源代码（未封装函数直接输入函数名，已封装函数先methods("xxx"),然后xxx.default,带星号的函数getAnywhere("xxx")
