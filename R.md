@@ -19,6 +19,7 @@
     5.crimedat <- sqlFetch(myconn,Crime)
     6.pundta <- sqlSQuery(myconn,"select * from Punishment")
     7.close(myconn)
+- Stat/Transfer
 - 错误
     - 导入csv文件时出现attempt to select less than one element in get1index错误
     - 导入xls文件时出现odbcConnectExcel is only usable with 32-bit Windows错误
