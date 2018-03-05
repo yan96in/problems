@@ -11,4 +11,6 @@
 - 卸载包remove.packages("xxx")或者detach(package="xxx",unload=TRUE)
 - 查看函数案例example("xxx")
 - 查看函数源代码（未封装函数直接输入函数名，已封装函数先methods("xxx"),然后xxx.default,带星号的函数getAnywhere("xxx")
-- 错误attempt to select less than one element in get1index表示?
+- 错误
+    - 导入csv文件时出现attempt to select less than one element in get1index错误
+    - 导入xls文件时出现odbcConnectExcel is only usable with 32-bit Windows错误
