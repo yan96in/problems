@@ -1,2 +1,3 @@
+- [Redis之Window安装使用](https://www.cnblogs.com/joyet/p/6103041.html)
 - [初次安装完毕,启动时报:Creating Server TCP listening socket *:6379: bind: No such file or directory](http://blog.csdn.net/fengzhihen2007/article/details/52211048)
 - [注册服务报错 HandleServiceCommands: system error caught. error code=1073](http://blog.sina.com.cn/s/blog_951f9ebb0102wouk.html)
