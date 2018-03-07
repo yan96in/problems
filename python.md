@@ -1,0 +1,1 @@
+- [微软官网下载 Service Pack 1解决win7安装问题](https://www.microsoft.com/zh-CN/download/details.aspx?id=5842)
