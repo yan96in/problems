@@ -1,2 +1,3 @@
 - [微软官网下载 Service Pack 1解决win7安装问题](https://www.microsoft.com/zh-CN/download/details.aspx?id=5842)
 - [安装scrapy](http://www.cnblogs.com/liuliliuli2017/p/6746440.html)
+- [ 分布式爬虫处理Redis里的数据](http://blog.csdn.net/lqf19921217/article/details/79227720) 这个例子中有错
