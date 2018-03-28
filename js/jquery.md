@@ -6,3 +6,4 @@
 ```
       $(obj).attr("id");
 ```
+- [jQuery.ajax向后台传递数组问题](https://blog.csdn.net/duofx/article/details/52913728)
