@@ -8,3 +8,4 @@
 还有“*”和“+”等都是转义字符，必须得加"\";
 2、如果在一个字符串中有多个分隔符，可以用“|”作为连字符，比如：“acount=? and uu =? or n=?”,把三个都分隔出来，可以用String.split("and|or");
 ```
+- [java转换doc为pdf](http://feifei.im/archives/93)
