@@ -1,2 +1,3 @@
 - [jacob.dll already loaded in another classloader](https://blog.csdn.net/gavin_sw/article/details/1559733)
 - [Jacob在服务器上不能使用的解决方法](https://blog.csdn.net/qq_31757133/article/details/52089212)
+- [java调用com组件操作word使用总结](https://www.2cto.com/kf/201612/578458.html)
