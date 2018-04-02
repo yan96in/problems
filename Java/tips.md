@@ -9,4 +9,5 @@
 2、如果在一个字符串中有多个分隔符，可以用“|”作为连字符，比如：“acount=? and uu =? or n=?”,把三个都分隔出来，可以用String.split("and|or");
 ```
 - [java转换doc为pdf](http://feifei.im/archives/93)
+  文中说的dll放在java.library.path中任意路径下是错的,必须是jdk/jre/bin文件夹下
 - [Java实现将文件或者文件夹压缩成zip](https://www.cnblogs.com/zeng1994/p/7862288.html)
