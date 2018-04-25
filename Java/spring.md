@@ -3,3 +3,4 @@
 - 路径在RequestMapping注解中定义,而不是在Controller注解!
 - [spring3.2只能用java7编译](http://blog.csdn.net/blueheart20/article/details/50150529)
 - [spring boot快速创建](http://start.spring.io/)
+- [springMVC3.2 与 springMVC4.3配置mediaTypes的不同之处](https://blog.csdn.net/xianglingchuan/article/details/72988155)
