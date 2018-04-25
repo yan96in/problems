@@ -11,3 +11,8 @@
 - [java转换doc为pdf](http://feifei.im/archives/93)
   文中说的dll放在java.library.path中任意路径下是错的,必须是jdk/jre/bin文件夹下
 - [Java实现将文件或者文件夹压缩成zip](https://www.cnblogs.com/zeng1994/p/7862288.html)
+- 支持jdk7的产品的最高版本
+- - tomcat:8.5
+- - spring:4.3.*
+- - mybatis:3.4.6
+- - 
