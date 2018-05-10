@@ -1,3 +1,4 @@
+- [ssm详细整合教程](https://www.cnblogs.com/zyw-205520/p/4771253.html)
 - 静态资源配置:[1](https://blog.csdn.net/yansong_8686/article/details/47356499),[2](https://www.cnblogs.com/dflmg/p/6393416.html)
 - springMVC如何传两个以上的model
 - controller之间,同一controller的方法之间跳转:
