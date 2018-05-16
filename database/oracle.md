@@ -1,3 +1,4 @@
+- [ORA-00119和ORA-00132的解决方案](https://blog.csdn.net/goodstudy2009/article/details/43699623)
 - 查询某个表上的触发器及某个触发器的详细信息
 	* .查all_triggers表得到trigger_name
 ```sql
