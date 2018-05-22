@@ -1,3 +1,5 @@
+- [找不到org.springframework.dao.support.DaoSupport的类文件](https://blog.csdn.net/jacke121/article/details/71105421)
+Spring tx：为JDBC、Hibernate、JDO、JPA等提供的一致的声明式和编程式事务管理。
 - Mybatis mapper文件中的sql结尾不要写";",否则会报错 (oracles数据库:"ORA-00911: 无效字符")
 - IncompleteElementException: Could not find result map ...
 
