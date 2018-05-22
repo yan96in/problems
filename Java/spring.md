@@ -1,4 +1,10 @@
-- 自动扫描到包路径要具体，要正确<context:component-scan base-package="**/service/impl,**/dao" />
+- 自动扫描到包路径要具体，要正确<context:component-scan base-package="com/\*\*/service/impl" />,mybatis要特殊配置
+ <!-- 配置扫描器 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 扫描me.gacl.dao这个包以及它的子包下的所有映射接口类 -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.gcoreinc.dao"/>
+    </bean>
 - todo spring-test整合junit进行单元测试
 - [Spring 中的事件监听的实现](http://blog.csdn.net/blueboz/article/details/49949573)
 - 路径在RequestMapping注解中定义,而不是在Controller注解!
