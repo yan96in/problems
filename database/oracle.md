@@ -1,4 +1,4 @@
--[ORA-00119和ORA-00132解决方案](https://blog.csdn.net/baidu_32383657/article/details/53020624)
+- [ORA-00119和ORA-00132解决方案](https://blog.csdn.net/baidu_32383657/article/details/53020624)
 - [ora-12505解决方案]（https://blog.csdn.net/mdifferent/article/details/7887832） 此外jdbc.url格式要注意，一定要在主机名前加@，如
 jdbc:oracle:thin:@localhost:1521:orcl
 - [ORA-00119和ORA-00132的解决方案](https://blog.csdn.net/goodstudy2009/article/details/43699623)
