@@ -1,3 +1,5 @@
+- [浅谈oracle数据库的restricted模式](http://blog.itpub.net/29487349/viewspace-1663945/)
+- [两种restricted模式登入的方法](https://blog.csdn.net/kevin_lcc/article/details/41483823)
 - [ORA-00119和ORA-00132解决方案](https://blog.csdn.net/baidu_32383657/article/details/53020624)
 - [ora-12505解决方案]（https://blog.csdn.net/mdifferent/article/details/7887832） 此外jdbc.url格式要注意，一定要在主机名前加@，如
 jdbc:oracle:thin:@localhost:1521:orcl
