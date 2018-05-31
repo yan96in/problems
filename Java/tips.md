@@ -1,3 +1,4 @@
+- [大型项目的Java的建议](https://blog.csdn.net/r1037/article/details/78355844)
 - int型数据不能与null进行比较
 - JMX:Java Management Extensions，即Java管理扩展
 - split用法小结 public String[] split(String regex)
