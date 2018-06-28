@@ -1,0 +1,1 @@
+- [show variables like '%secure%';](https://blog.csdn.net/h12kjgj/article/details/77187304)
