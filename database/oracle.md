@@ -1,3 +1,5 @@
+- 导出单个表exdmp user1/pwd@server1 file=c:\temp\exp.dmp tables=(table1, table2)
+- 查看directory : select * from dba_directories;
 - [浅谈oracle数据库的restricted模式](http://blog.itpub.net/29487349/viewspace-1663945/)
 - [两种restricted模式登入的方法](https://blog.csdn.net/kevin_lcc/article/details/41483823)
 - [ORA-00119和ORA-00132解决方案](https://blog.csdn.net/baidu_32383657/article/details/53020624)
