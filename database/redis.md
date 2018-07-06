@@ -1,4 +1,4 @@
- -[集群配置出现redis:CLUSTER cluster is down解决方法](https://blog.csdn.net/qq_35066345/article/details/79833609),(要安装ruby)
+- [集群配置出现redis:CLUSTER cluster is down解决方法](https://blog.csdn.net/qq_35066345/article/details/79833609),(要安装ruby)
 - [Redis之Window安装使用](https://www.cnblogs.com/joyet/p/6103041.html)
 - [初次安装完毕,启动时报:Creating Server TCP listening socket *:6379: bind: No such file or directory](http://blog.csdn.net/fengzhihen2007/article/details/52211048)
 - [注册服务报错 HandleServiceCommands: system error caught. error code=1073](http://blog.sina.com.cn/s/blog_951f9ebb0102wouk.html)
