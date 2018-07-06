@@ -1,0 +1,1 @@
+- [ruby make: *** No rule to make target `/include/ruby.h', need](http://samwalt.iteye.com/blog/2371253)
