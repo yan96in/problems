@@ -1,0 +1,2 @@
+- [nginx安装](http://www.runoob.com/linux/nginx-install-setup.html)
+- [nginx负载均衡](https://www.cnblogs.com/Miss-mickey/p/6734831.html)
