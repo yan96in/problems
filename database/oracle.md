@@ -1,3 +1,4 @@
+- [改变oracle数据库TNSLSNR.exe进程占用端口](https://blog.csdn.net/qq_32626543/article/details/66972944?locationNum=15&fps=1)
 - 导出单个表exdmp user1/pwd@server1 file=c:\temp\exp.dmp tables=(table1, table2)
 - 查看directory : select * from dba_directories;
 - [浅谈oracle数据库的restricted模式](http://blog.itpub.net/29487349/viewspace-1663945/)
