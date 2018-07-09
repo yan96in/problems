@@ -1,1 +1,2 @@
+- [创建用户及授权](https://www.cnblogs.com/sos-blue/p/6852945.html)
 - [show variables like '%secure%';](https://blog.csdn.net/h12kjgj/article/details/77187304)
