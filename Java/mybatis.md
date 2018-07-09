@@ -1,3 +1,4 @@
+- [解决运行mybatis-generator生成java.sql.SQLException: Cannot connect to database (possibly bad driver/URL combination)异常](http://www.xwood.net/_site_domain_/_root/5870/5874/t_c268747.html),注意:jdbc:后面没有//,跟yml里面的配置有区别
 - [如何在idea中使用Mybatis-generator插件快速生成代码](https://www.cnblogs.com/yuanmiemie/p/6736347.html)
 - [找不到org.springframework.dao.support.DaoSupport的类文件](https://blog.csdn.net/jacke121/article/details/71105421)
 Spring tx：为JDBC、Hibernate、JDO、JPA等提供的一致的声明式和编程式事务管理。
