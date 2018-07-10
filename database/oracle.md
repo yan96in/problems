@@ -1,3 +1,11 @@
+- 查询表空间创建时间:
+```sql
+	select a.file_name,a.tablespace_name, 
+	to_char(b.creation_time,’yyyy-mm-dd’)
+	creation_time from dba_data_files a, 
+	v$datafile b where a.file_id=
+	b.file# order by tablespace_name;
+```
 - [改变oracle数据库TNSLSNR.exe进程占用端口](https://blog.csdn.net/qq_32626543/article/details/66972944?locationNum=15&fps=1)
 - 导出单个表exdmp user1/pwd@server1 file=c:\temp\exp.dmp tables=(table1, table2)
 - 查看directory : select * from dba_directories;
