@@ -1,0 +1,1 @@
+- [安装](https://www.zabbix.com/download)
