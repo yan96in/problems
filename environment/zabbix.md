@@ -1,2 +1,3 @@
+- [监控云主机时报错Lack of free swap space on Zabbix server](https://blog.csdn.net/xundh/article/details/71439345)
 - [用户名密码](https://www.centos.bz/2017/08/zabbix-forget-password-reset/)
 - [安装](https://www.zabbix.com/download)
