@@ -1,3 +1,5 @@
+- [mysql group by和count同时使用的bug](https://blog.csdn.net/onlyquan3/article/details/56839586)
+- [count(distinct) 与group by 浅析](https://blog.csdn.net/bitcarmanlee/article/details/51280949)
 - 在命令行中指定要连接的数据库 -D
 - [创建用户及授权](https://www.cnblogs.com/sos-blue/p/6852945.html)
 - [show variables like '%secure%';](https://blog.csdn.net/h12kjgj/article/details/77187304)
