@@ -1,0 +1,2 @@
+- [java线程池与五种常用线程池策略使用与解析](https://blog.csdn.net/u011479540/article/details/51867886)
+- 在使用线程时，要优先选择线程池
