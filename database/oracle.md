@@ -1,4 +1,8 @@
-- 查询表空间创建时间:
+- 查询所有表空间的大小:
+```sql
+	select tablespace_name,sum(bytes)/1024/1024/1024 as GB from dba_data_files group by tablespace_name;
+```
+- 查询所有表空间的创建时间:
 ```sql
 	select a.file_name,a.tablespace_name, 
 	to_char(b.creation_time,’yyyy-mm-dd’)
