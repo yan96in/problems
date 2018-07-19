@@ -1,3 +1,5 @@
+- @Transactional注解加在service层
+- [spring的proxy-target-class详解](https://blog.csdn.net/shaoweijava/article/details/76474652)
 - [ajax成功请求到后台，但是前端报404错误](https://blog.csdn.net/qq_33678838/article/details/76422326)
 - 自动扫描到包路径要具体，要正确<context:component-scan base-package="com/\*\*/service/impl" />,mybatis要特殊配置
  <!-- 配置扫描器 -->
