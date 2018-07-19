@@ -1,3 +1,4 @@
+- [关于Oracle的NVARCHAR2在mybatis-generator中的使用](https://blog.csdn.net/u014418725/article/details/79526262)
 - generantor配置中的targetProject可以是绝对路径或相对路径,写相对路径时eclipse是项目名开头,idea直接src开头;
 - [解决运行mybatis-generator生成java.sql.SQLException: Cannot connect to database (possibly bad driver/URL combination)异常](http://www.xwood.net/_site_domain_/_root/5870/5874/t_c268747.html),注意:jdbc:后面没有//,跟yml里面的配置有区别
 - [如何在idea中使用Mybatis-generator插件快速生成代码](https://www.cnblogs.com/yuanmiemie/p/6736347.html)
