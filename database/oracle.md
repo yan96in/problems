@@ -1,3 +1,4 @@
+- [Oracle修改字段类型方法总结](https://www.cnblogs.com/langtianya/p/6148491.html)
 - 查询所有表空间的大小:
 ```sql
 	select tablespace_name,sum(bytes)/1024/1024/1024 as GB from dba_data_files group by tablespace_name;
