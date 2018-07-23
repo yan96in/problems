@@ -1,3 +1,4 @@
+- [查询第n到m条记录](https://www.cnblogs.com/lidabo/archive/2013/01/10/2854179.html)
 - [Oracle修改字段类型方法总结](https://www.cnblogs.com/langtianya/p/6148491.html)
 - 查询所有表空间的大小:
 ```sql
