@@ -1,0 +1,1 @@
+- [mac下使用su命令](https://blog.csdn.net/maxsky/article/details/44905003)
