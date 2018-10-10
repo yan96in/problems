@@ -2,3 +2,4 @@
 - [springboot热部署](https://my.oschina.net/yejunxi/blog/845752)
 - 将经常改动的文件add to favourites 来避免多次反复查找
 - [the output path is not specified for module](http://blog.csdn.net/lyzhou1107/article/details/46969959)
+- [idea修改javascript版本](https://blog.csdn.net/zhujianlin1990/article/details/78054783)
