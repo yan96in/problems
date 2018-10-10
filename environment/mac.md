@@ -1,2 +1,3 @@
 - [mac下使用su命令](https://blog.csdn.net/maxsky/article/details/44905003)
 - [在Mac中如何正确地设置JAVA_HOME](https://blog.csdn.net/a158123/article/details/79684499)
+- [mac下复制路径](https://blog.csdn.net/cdqn10086/article/details/70216350)
