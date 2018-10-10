@@ -1,0 +1,1 @@
+- [通过java.net.URLConnection发送HTTP请求的方法](https://www.cnblogs.com/cl1255674805/p/5708735.html)
