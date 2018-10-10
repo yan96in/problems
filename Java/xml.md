@@ -1,1 +1,2 @@
 - [JAXB 实现java对象与xml之间互相转换](https://www.cnblogs.com/liuk/p/5829389.html)
+- [解决ClassNotFoundException: javax.xml.bind.JAXBException](https://blog.csdn.net/hadues/article/details/79188793)
