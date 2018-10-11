@@ -1,1 +1,2 @@
-git svn rebase之前需要先add+commit
+- git svn rebase之前需要先add+commit
+- [git强制回滚](https://blog.csdn.net/zhang_xiaomeng/article/details/52525525)
