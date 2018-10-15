@@ -2,3 +2,4 @@
 - [在Mac中如何正确地设置JAVA_HOME](https://blog.csdn.net/a158123/article/details/79684499)
 - [mac下复制路径](https://blog.csdn.net/cdqn10086/article/details/70216350)
 - [mac的end键和home键](https://blog.csdn.net/wanghaoqian/article/details/78373128)
+- mac显示隐藏文件Command+Shift+.
