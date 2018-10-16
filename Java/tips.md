@@ -1,4 +1,5 @@
 - [大型项目的Java的建议](https://blog.csdn.net/r1037/article/details/78355844)
+- [java命令执行jar包的方式](https://www.cnblogs.com/zpbolgs/p/7267384.html)
 - int型数据不能与null进行比较
 - JMX:Java Management Extensions，即Java管理扩展
 - split用法小结 public String[] split(String regex)
