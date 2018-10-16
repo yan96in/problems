@@ -2,6 +2,7 @@
 - [java命令执行jar包的方式](https://www.cnblogs.com/zpbolgs/p/7267384.html)
 - jar包读取properties文件可以通过文件流的方式pps.load(new FileInputStream("config.properties"))，将jar包和配置文件放在同一文件夹下，参考：[关于读取jar外面的properties文件的问题](https://blog.csdn.net/j2ee_me/article/details/5817711)
 - SimpleDateFormat中的年用y表示，如yyyyMMdd
+- [java Timer（定时调用、实现固定时间执行）](https://www.cnblogs.com/0201zcr/p/4703061.html)
 - int型数据不能与null进行比较
 - JMX:Java Management Extensions，即Java管理扩展
 - split用法小结 public String[] split(String regex)
