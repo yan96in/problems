@@ -3,3 +3,4 @@
 - [mac下复制路径](https://blog.csdn.net/cdqn10086/article/details/70216350)
 - [mac的end键和home键](https://blog.csdn.net/wanghaoqian/article/details/78373128)
 - mac显示隐藏文件Command+Shift+.
+- [Mac安装软件时提示已损坏的解决方法](https://blog.csdn.net/u014692324/article/details/78762178/)
