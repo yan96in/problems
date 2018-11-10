@@ -1,1 +1,2 @@
 - [vue-cli超详细教程](https://blog.csdn.net/wulala_hei/article/details/80488674)
+- [vuex最简单、最详细的入门文档](https://segmentfault.com/a/1190000009404727?utm_source=tag-newest)
