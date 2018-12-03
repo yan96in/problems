@@ -6,3 +6,4 @@
 - 远程桌面连接:mstsc
 - [windows 下使用make命令，编译代码](http://blog.csdn.net/nicholas_liu2017/article/details/78323391)
 - [用Navicat工具将Excel中的数据导入Mysql中](https://www.cnblogs.com/Steven-shi/p/5803448.html)
+- 安全策略限制软件使用：
