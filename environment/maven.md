@@ -1,1 +1,2 @@
 - [从GIt上导出Maven项目](https://blog.csdn.net/heng_yan/article/details/80107423)
+- idea maven没有settings.xml文件，需要拷贝一份可用的到.m2文件夹下[参考]（https://blog.csdn.net/asdf_1024/article/details/78967459）
