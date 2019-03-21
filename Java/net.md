@@ -1,1 +1,2 @@
 - [通过java.net.URLConnection发送HTTP请求的方法](https://www.cnblogs.com/cl1255674805/p/5708735.html)
+- [mina用法](https://www.cnblogs.com/duanxz/p/5143227.html)
